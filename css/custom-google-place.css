@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+@-webkit-keyframes ani-fb-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@-moz-keyframes ani-fb-spin {
+  0% {
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes ani-fb-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+.fb-review,.fb-review *{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.clear{
+
+	clear: both;
+
+}
+
+.fb-review {padding: 10px;overflow: hidden;position: relative;padding-bottom: 40px;}
+
+.fb-review.boxshow{/* box-shadow: 1px 1px 1px 1px #ccc; */-webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.21);-moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.21);box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.21);font-family: Roboto;border: none!important;position: relative;padding-bottom: 40px;}
+.fb-review .fb-review-content{font-size: 0}
+.fb-review .fb-review-content .custom-google-fr-group-item{font-size: 14px;color: #434a54;}
+@media(max-width: 430px){
+	.fb-review .fb-review-content .custom-google-fr-group-item{ min-width: 100%}
+}
+.fb-review .fb-review-content .custom-google-fr-group-item .custom-google-fr-review-text{
+	font-size: 14px;
+	line-height: 16px;
+	font-family: roboto;
+	font-weight: 500;
+	color: #434a54;
+}
+.fb-review .custom-google-fr-group-item{/*width: 200px;*/min-height: 75px;display: inline-block;padding:  10px;vertical-align: top;}
+
+.fb-review .custom-google-fr-group-item h3{color: #434a54;font-family: Roboto;padding: 0;margin: 0;font-size: 18px;margin: 0 0 5px;}
+
+.fb-review .custom-google-fr-group-item .custom-google-fr-rating {width: 100%;overflow: hidden;margin-bottom: 10px;}
+
+.fb-review .custom-google-fr-group-item .custom-google-fr-rating ul{
+
+	margin-bottom: 0;
+  margin-left: 0;
+
+}
+
+.fb-review .custom-google-fr-group-item .custom-google-fr-rating ul li{
+
+    list-style: none;
+
+    float: left;
+
+    font-size: 15px;
+
+    color: #5080F7;
+
+    padding: 2px;
+
+}
+.fb-review .custom-google-fr-group-item .custom-google-fr-rating ul li img {
+  width: 10px;
+}
+
+
+.fb-review-more{width: 100%;font-size: 14px;-webkit-font-smoothing: antialiased;font-weight: bold;text-align: center;text-shadow: none;vertical-align: middle;box-shadow: none !important;display: block;cursor: pointer;font-family: Roboto;}
+
+
+
+.fb-review-more{background-color: #ccd1d9;/* border-color: #ced0d4; */color: #434a54 !important;line-height: 30px;padding: 0 16px;border: none;position: absolute;bottom: 0;height: 30px;left: 0;}
+
+
+
+.fb-review-more:hover{background-color: #ccd1d9;box-shadow: none !important;}
+
+
+
+
+
+
+.custom-google-fr-stars{}
+.custom-google-fr-stars .custom-google-fr-starsnumb{}
+.custom-google-fr-stars .custom-google-fr-starslist-wrapper{
+    font-size: 0;
+    line-height: 0;
+    float: left;
+    width: 106px;
+    height: 24px;
+}
+
+
+.hide-head{
+padding-top: 0;
+}
+.hide-head:before{
+  height: 0;
+}
+.custom-google-places-reviews-wap{
+  overflow: hidden;
+}
+.custom-google-places-reviews-wap {box-sizing: border-box;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;position: relative;width: 100%;-webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.21);-moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.21);box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.21);font-family: Roboto;padding: 15px;border-top: 8px solid #4285f4;font-size: 14px;line-height: 24px;}
+.custom-google-header {overflow: hidden;position: relative;padding-bottom: 15px;border-bottom: 1px solid #e0e0e0;margin-bottom: 15px;}
+.custom-google-header-badge{
+	padding-bottom: 0;
+	margin-bottom: 0;
+	border-bottom: none;
+}
+.custom-google-header:after{
+	content: '';
+	clear: both;
+	display: block;
+}
+.custom-google-header .custom-google-header-content{
+	margin-left: 90px;
+}
+.custom-google-header-image {
+  width: 80px;
+  overflow: hidden;
+  height: 80px;
+  position: relative;
+  float: left;
+}
+.custom-google-header .custom-google-fr-starsnumb {
+  font-size: 0;
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 10px;
+  color: #e7711b;
+  font-weight: 500;
+}
+.custom-google-header .custom-google-fr-starsnumb span{
+    font-size: 24px;
+    line-height: 38px;
+}
+.custom-google-header-image img {height: 80px;max-width: 500px;min-width: 100%;transform: translate(-50%,0);left: 50%;position: absolute;}
+.custom-google-review-avatar{width: 60px;overflow: hidden;height: 60px;float: left;border-radius: 100%;-moz-border-radius: 100%;-webkit-border-radius: 100%;}
+.custom-google-review-avatar img{
+  height: 100%;
+}
+.clearfix{
+  clear: both;
+}
+.custom-google-review .custom-google-review-content{
+  padding-top: 5px;
+  font-size: 14px;
+  line-height: 16px;
+}
+.custom-google-review .custom-google-review-content > *{
+	display: inline;
+}
+.custom-google-review .custom-google-review-content a{
+    font-size: 14px;
+    color: #1a0dab;
+}
+.custom-google-review .custom-google-review-content a:hover{
+	color: #e7711b
+}
+.custom-google-review {padding-top: 20px;padding-bottom: 10px;}
+.custom-google-review .custom-google-review-header{}
+.custom-google-review .custom-google-review-info{
+    margin-left: 73px;
+}
+.custom-google-review .custom-google-fr-starslist-wrapper{
+    padding: 5px 0;
+    line-height: 0;
+    background: none;
+}
+.custom-google-review .gpr-rating-time{
+    color: #999999;
+    font-size: 14px;
+    line-height: 18px;
+    display: block;
+    margin-top: 5px;
+}
+.custom-google-review .custom-google-fr-starsnumb{ display: none;}
+.custom-google-review .custom-google-review-info .grp-reviewer-name{
+    font-size: 14px;
+    font-weight: 700;
+    display: block;
+    line-height: 18px;
+}
+.custom-google-review .custom-google-review-info .grp-reviewer-name a{
+    text-decoration: none;
+    box-shadow: none;
+    border: none;
+    font-size: 14px;
+    color: #4285f4;
+    line-height: 18px;
+}
+.custom-google-review .custom-google-review-info .grp-reviewer-name a:hover{
+	color: #e7711b
+}
+.custom-google-review .custom-google-review-info .grp-reviewer-name span{ font-size: 17px; }
+.btn-reivew {
+
+  font-size: 19px;
+  color: red;
+  box-shadow: none !important;
+}
+.btn-reivew:hover,.btn-reivew:focus{
+  color: red;
+  box-shadow: none !important;
+  border: none;
+}
+.custom-google-header .custom-google-header-title{
+	color: #434a54;
+	font-size: 18px;
+	text-decoration: none;
+	line-height: 24px;
+}
+.custom-google-header .custom-google-header-title a{
+	color: #434a54;
+	text-decoration: none;
+	box-shadow: none;
+	border: none;
+	font-weight: 700;
+	transition: 0.4s ease all;
+	-moz-transition: 0.4s ease all;
+	-webkit-transition: 0.4s ease all;
+}
+.custom-google-header .custom-google-header-title a:hover{
+	color: #e7711b
+}
+.custom-google-header .custom-google-fr-starslist-wrapper{
+	display: inline-block;
+	height: 39px;
+	padding-top: 9px;
+}
+.custom-google-places-reviews-wap .custom-google-fr-starslist-wrapper .custom-google-fr-starslist-current{
+    white-space: nowrap;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.custom-google-places-reviews-wap .custom-google-fr-starslist-wrapper .custom-google-fr-star{
+    background: url('../images/rate-star.svg') 0 0 no-repeat;
+    width: 18px;
+    height: 18px;
+    background-size: 100%;
+    display: inline-block;
+    margin-right: 1px;
+}
+.custom-google-fr-starslist-wrapper .custom-google-fr-starslist-background{}
+.custom-google-fr-starslist-wrapper .custom-google-fr-starslist-current .custom-google-fr-star{}
+.custom-google-places-reviews-wap .custom-google-fr-starslist-wrapper .custom-google-fr-starslist-background .custom-google-fr-star{
+    background-image: url(../images/rate-star-gray.svg);
+}
+.custom-google-places-reviews-wap .custom-google-fr-starslist-wrapper .custom-google-fr-starslist-container{
+    position: relative;
+    font-size: 0;
+    height: 18px;
+    display: inline-block;
+}
+.custom-google-places-reviews-wap .custom-google-places-reviews .custom-google-fr-starslist-wrapper{
+  background: none;
+}
+
+/*column*/
+.custom-google-review{
+  float: left;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+.custom-google-disabled-shadow{
+  box-shadow: none;
+}
+.custom-google-reviews-wrap{
+    font-size: 0;
+}
+.custom-google-reviews-wrap .custom-google-review{
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.custom-google-review-header .wrapper-google-review{
+
+	background: none !important;
+  
+
+}
